@@ -23,6 +23,35 @@
 </head>
 
 <body>
+
+  <header>
+    <nav class="navbar">
+      <img class="copycat-logo" src="img/copycat logo.png" alt="">
+      <ul style="list-style: none;">
+        <li><a href="menu-page">menu</a></li>
+        <li><a href="location-page">locations</a></li>
+        <li><a href="login page">my account</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <div>
+      <img src="" alt="" class="">
+
+
+    </div>
+
+
+    <div class="menu">
+      <img src="img/burger for project.svg" alt="">
+      <img src="img/chicken sandwich.png" alt="">
+      <img src="img/food image.png" alt="">
+      <img src="img/mac burger.jpg" alt="">
+      <img src="img/fries.avif" alt="">
+      <img src="img/tots.avif" alt="">
+      <img src="img/waffle fries.avif" alt="">
+
+    </div>
   
   <script src="js/main.js"></script>
 </body>

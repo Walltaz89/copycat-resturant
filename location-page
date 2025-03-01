@@ -23,6 +23,17 @@
 </head>
 
 <body>
+
+  <header>
+    <nav class="navbar">
+      <img class="copycat-logo" src="img/copycat logo.png" alt="">
+      <ul style="list-style: none;">
+        <li><a href="menu-page">menu</a></li>
+        <li><a href="location-page">locations</a></li>
+        <li><a href="login page">my account</a></li>
+      </ul>
+    </nav>
+    </header>
   
   <script src="js/main.js"></script>
 </body>
