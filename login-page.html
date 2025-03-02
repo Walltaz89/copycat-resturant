@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -23,40 +23,31 @@
 </head>
 
 <body>
-  
-    <header>
-        <nav class="navbar">
-          <img class="copycat-logo" src="img/copycat logo.png" alt="">
-          <ul style="list-style: none;">
-            <li><a href="menu-page">menu</a></li>
-            <li><a href="location-page">locations</a></li>
-            <li><a href="login page">my account</a></li>
-          </ul>
-        </nav>
-        </header>
-
-
-            <form action=" welcome" > 
-                <div>
-                <label for="name">Name:</label> 
-                <input type="text" id="name" name="name" required placeholder="Enter your 
-              name"><br><br> 
-               
-                <label for="email">Email:</label> 
-                <input type="email" id="email" name="email"><br><br> 
-               
-                <label for="password">Password:</label> 
-                <input type="password" id="password" name="password" required><br><br> 
-                
-               
-                <label for="file">File Upload:</label> 
-                <input type="file" id="file" name="file" multiple><br><br> 
-               
-                <input type="submit" value="Submit">
-            </div> 
-              </form>   
-    
+  <header>
+     <nav class="navbar">
+        <a href="index.html">
+        <img class="copycat-logo" src="img/copycat-logo.png" alt="">
+        </a>
+        <button class="hamburger" aria-expanded="false">
+        <span class="bar"></span>
+        </button>
+        <ul class="navbar-links">
+           <li><a href="index.html">About us</a></li>
+           <li><a href="menu-page.html">Menu</a></li>
+           <li><a href="location-page.html">Locations</a></li>
+           <li><a href="login-page.html">My Account</a></li>
+        </ul>
+     </nav>
+  </header>
+  <Div class="login-form">
+     <form action="login-submit.html" method="POST" class="login-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required placeholder="Enter your username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+        <button type="submit">Login</button>
+     </form>
+  </Div>
   <script src="js/main.js"></script>
 </body>
-
 </html>
