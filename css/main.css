@@ -1,9 +1,10 @@
-.copycat-logo{
-    width: 250px;
-    height:50px ;
-    margin-right: 20px;
-    object-fit: contain;
-    }
+h1{
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 100px;
+}
+
     .navbar{
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,7 @@
     object-fit: contain;
     object-position: center;
     }
-    .hero-content h1{
+    .hero-content h2{
     color:white;
     padding: 10px;
     margin: 20px;
@@ -90,7 +91,7 @@
     margin: 10px;
     padding: 10px;
     }
-    .about-us h2{
+    .about-us h3{
     color: #f4f4f4;
     font-family: 'Montserrat', sans-serif;
     }
@@ -147,20 +148,11 @@
     }
     .navbar-links {
     display: none;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgb(173, 173, 173); 
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
     } 
     .hamburger{ 
-    display: flex;
+    display: block;
     }
-    .navbar-links.expanded{
-    display: flex;
-    }
+    
     .menu img{
     width: 100%;
     height:auto;

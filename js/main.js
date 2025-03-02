@@ -6,4 +6,3 @@ hamburger.addEventListener('click', () => {
   hamburger.setAttribute('aria-expanded',!expanded);
   menu.classList.toggle('expanded');
 });
-
